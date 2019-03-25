@@ -1,0 +1,279 @@
+@charset "utf-8";
+ul,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.banner{
+	width: 100%;
+}
+.banner img{
+	display: block;
+	width: 100%;
+}
+.container{
+	/*padding-top:4rem;*/
+}
+
+.area1 h3{
+	color: #c8913d;
+	font-weight: bold;
+	font-size: 1.8rem;
+}
+.area1 h2{
+	color: #fff;
+	font-weight: bold;
+	font-size: 2rem
+}
+.area1 .video{
+	width: 100%;
+	background: #fff;
+	padding: 1%;
+	border-radius: 1%;
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.area1 .video video{
+	width: 100%;
+}
+.area2{
+	position: relative;
+	overflow: hidden;
+}
+.area2-bg{
+	position: absolute;
+	bottom: 0;
+	
+}
+.area2 .area2-tab{
+	color: #fff;
+	background: #90021f;
+	display: inline-block;
+	padding:0 4%;
+	margin-bottom: 0;
+	margin-left: 4%;
+	height: 2rem;
+	line-height: 2rem;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+.area2 .area2-box{
+	border: 3px solid #90021F;
+	background: #fff;
+	padding:2rem 4%;
+	border-radius: 15px;
+}
+.area2-box .pull-right{
+	float: none !important; 
+}
+.area2-box .pull-right{
+	font-size: 1.5rem;
+}
+.area2-box .pull-right t{
+	display: block;
+	text-align: center;
+	font-size: 1.5rem;
+	
+}
+.area2-box .pull-right em{
+	font-size: 3rem;
+	color: #90021f;
+	font-style: normal;
+}
+.area2-box .pull-right div{
+	text-align: center;
+	margin-top: 1rem;
+}
+.area3{
+	
+	margin:2rem auto;
+	border-radius: 15px;
+	background: #fff;
+	padding:1rem 1rem 0 1rem;
+	overflow: hidden;
+}
+.area3>p{
+	padding-left: 0.25rem;
+}
+.area3>div{
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0;
+	overflow: hidden;
+
+}
+.area3 div img{
+	display: block;
+	width: 100%;
+	border-radius: 50%;
+}
+.area3 .area3-pa{
+	padding: 0.25rem;
+	text-align: center;
+}
+.area4{
+	margin:2rem auto;
+	border-radius: 15px;
+	background: #fff;
+	padding:1rem;
+	position: relative;
+}
+.area4 .area4-top{
+	position: absolute;
+	left: 15%;	
+	width: 70%;
+	top: -1rem;
+}
+.area4-box{
+	height: 25rem;
+	overflow-y: scroll;
+	width: 100%;
+}
+.area4 .area4-title{
+	height: 3rem;
+	line-height: 3rem;
+	border-top: 1px dashed #d2d2d2;
+	border-bottom: 1px dashed #d2d2d2;
+}
+.area4>p{
+	text-align: center;
+	font-size: 2rem;
+}
+.area4-box li{
+	/* height: 5rem; */
+	padding: 0.5rem 0;
+	border-bottom: 1px dashed #d2d2d2;
+}
+.area4-lf img{
+	display: inline-block;
+	width: 4rem;
+	border-radius: 50%;
+}
+.area4-lf p{
+	display: inline-block;
+	padding-left: 0.25rem;
+}
+.area4-c{
+	text-align: center;
+	/* line-height: 4rem; */
+}
+.area4-rt{
+	text-align: right;
+	line-height: 4rem;
+}
+.area4-pay{
+	color: #f24724;
+}
+
+.area6{
+	background: url(../images/bottom.png) no-repeat;
+	background-size:cover;
+	padding: 5rem 1rem 4rem 2rem;
+	margin-bottom: 5rem;
+}
+.area6 p{
+	margin-bottom: 0;
+}
+.area6 span{
+	color: #cd2d24;
+}
+.area6 h3{
+	color: #e2b017;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.footer{
+	position: fixed;
+	bottom: 0;
+	height: 4rem;
+	line-height: 4rem;
+	text-align: center;
+	width: 100%;
+}
+.footer a{
+	color: #fff;
+	display: block;
+}
+.footer .jiameng{
+	background:url(../images/lf.jpg) no-repeat;
+	background-size:100%;
+	font-size: 2rem;
+	padding: 0;
+}
+.footer .fenxiang{
+	background:url(../images/rt.jpg) no-repeat;
+	background-size:100%;
+	font-size: 2rem;
+	padding: 0;
+}
+
+
+/*分享开始*/
+.area8{
+	position: relative;
+}
+.area8 .share{
+	width:100%;
+}
+.area8 img{
+	display: block;
+	width: 100%;
+}
+.area8 button{
+	background: #d0022c;
+	color:#fff;
+	width: 80%;
+	display: block;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 2rem;
+	padding: 0;
+	border-radius: 2rem;
+	position: absolute;
+	bottom:5%;
+	left: 10%;
+}
+/*分享结束*/
+
+/*加盟开始*/
+.area9{
+	padding-top: 4rem;
+}
+.area9 h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 3rem;
+	margin: 0;
+}
+.area9 form{
+	margin: 2rem 0;
+}
+.area9 form input{
+	display: block;
+	width: 100%;
+	margin-bottom: 1rem;
+	height: 3rem;
+	line-height: 3rem;
+	border: 1px solid #999;
+	border-radius: 5px;
+	font-size: 1rem;
+	padding-left:5%;
+}
+.area9 form button{
+	width: 100%;
+	background: #af1635;
+	height: 3rem;
+	line-height: 3rem;
+	padding: 0;
+	color: #fff;
+}
+/*加盟结束*/
+.liuyan{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 15px;
+	padding: 10px;
+	color: #999;
+	line-height: 20px;
+}
